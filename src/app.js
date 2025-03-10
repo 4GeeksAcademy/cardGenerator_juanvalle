@@ -37,9 +37,14 @@ value.querySelector(".figuraInvertida").innerHTML = figura;
 
 
 let color= document.getElementById("card")
-color.querySelector(".figura").style.color="red"
+/*  */
+if (figura===`♥`|| figura===`♦`){
+  color.querySelector(".figura").style.color="red"
 color.querySelector(".figuraInvertida").style.color="red"
-
+} else {
+   color.querySelector(".figura").style.color="black"
+color.querySelector(".figuraInvertida").style.color="black"
+}
 
 
   return `${figura}${valor}`
