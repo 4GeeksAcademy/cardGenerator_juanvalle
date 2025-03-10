@@ -32,4 +32,10 @@ body{
     transform: rotate(180deg);
 }
 
+.boton{
+    border-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
